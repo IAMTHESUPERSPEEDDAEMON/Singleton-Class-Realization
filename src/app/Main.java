@@ -4,8 +4,8 @@ public class Main {
     static Logger logger = Logger.getInstance();
 
     public static void main(String[] args) {
-        logger.log("Log message 1");
-        logger.log("Log message 2");
+        AnyClassLogic anyClassLogic = new AnyClassLogic();
+        anyClassLogic.start(1);
 
 
         logger.getLogs();
